@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body, ul, li, p, a, label, input, div {
+    font-family: 'Roboto', sans-serif;
+} 
+
+/* control in template */
+.VH-25{height: 25vh;}
+.VH-50{height: 50vh;}
+.VH-75{height: 75vh;}
+.VH-100{height: 100vh;}
+
+
+/* color of template */
+.TextLight{
+    color: #cfd6e1;
+}
+.BgLight{
+    background-color: #cfd6e1;
+}
+.BgHLight{
+    background-color: #efefef;
+}
+.BgBlueDark{
+    background-color: #212934;
+}
+.TextIce{
+    color: #e9eef5;
+}
+.BgIce{
+    background-color: #e9eef5;
+}
+.borLight{
+    border-color: #2d343f !important;
+}
+.bgHoverGreen:hover,.NavPagination .active .page-link{
+    background-color: #198754 !important;
+}
+.HoverGreen:hover{
+    color: #198754;
+}
+.HoverWhite:hover{
+    color: #fff;
+}
+.CursorP{
+    cursor: pointer;
+}
+.brand-img {
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: .5s;
+}
+.brand-img:hover{
+    filter: none;
+    opacity: 1;
+}
+
+
+
+/* navbar hight top */
+.head-navb * {
+    font-size: .93em;
+}
+.head-navb a:hover {
+    color: #919191;
+}
+.model-serch{
+    z-index: 2;
+    top: 10px;
+    display: none;
+}
+
+/*navbar top*/
+.logo{
+font-size: 3em;
+font-weight: 500;
+
+}  
+.nav-chanige{
+    max-width: 600px;
+}
+.nav-chanige .active,.NavPagination .page-link{
+    color: #198754;
+}
+
+.nav-chanige .active a:hover{
+    color: #778e84 !important;
+}
+.nav-chanige .active a{
+    color: #198754 !important;
+}
+.nav-chanige a:hover,.footer-buotten a:hover{
+    color: #198754 !important;
+    
+
+}
+
+/* our service */
+.box-service:hover{
+    background-color: #198754 !important;
+    transition: ease-in-out 0.3s;
+}
+.box-service:hover i,.box-service:hover h3 {
+    color: #fff;
+    transition: ease-in-out 0.3s;
+
+    }
+
+/* shop page item */
+.OverImgItem{
+    background: rgba(0,0,0,.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+.AllCard:hover .OverImgItem{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* footer */
+footer .first-row a:hover{
+    color: #198754;
+}
